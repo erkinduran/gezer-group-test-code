@@ -1,0 +1,24 @@
+.status {
+    display: inline-block;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+
+.status_red {
+    background: rgb(214, 61, 46);
+}
+
+.status_green {
+    background: rgb(85, 204, 68);
+}
+
+.navigator_icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.navigator_icon.disabled {
+    cursor: not-allowed
+}
